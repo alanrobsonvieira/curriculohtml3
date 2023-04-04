@@ -1,0 +1,236 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    height: 50%;
+}
+
+
+#home {
+
+    margin-top: 100px;
+    margin-left: 460px;
+    border-radius: 25%;
+    border: 2px solid red;
+
+}
+
+
+#book {
+    background: url(../img/book.png) no-repeat;
+    float: left;
+    position: absolute;
+    width: 830px;
+    height: 560px;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+#pages section {
+    background: url(../img/paper.png) no-repeat;
+    display: block;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 415px;
+    top: 45px;
+    overflow: hidden;
+}
+
+#pages section>div {
+    display: block;
+    width: 400px;
+    height: 450px;
+    font-size: 12px;
+}
+
+#pages section #auto h1 {
+    margin: auto;
+    margin-left: 165px;
+}
+
+#pages section #auto h2 {
+    margin-top: 1px;
+    margin-left: 100px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#pages section #auto h3 {
+    margin-top: 10px;
+    margin-left: 145px;
+}
+
+#pages section #auto #a {
+
+    margin-left: 160px;
+}
+
+#pages section #auto h5 {
+    margin-top: 1px;
+    margin-left: 138px;
+}
+
+#pages section #auto h6 {
+    margin-top: 1px;
+    margin-left: 1px;
+    font-size: 10px;
+}
+
+#pages section #ibero h1 {
+
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+#pages section h2 {
+    margin: auto;
+    margin-left: 105px;
+    color: red;
+}
+
+#pages section h3 {
+    margin: 15px;
+    margin-left: 90px;
+}
+
+#pages section #b {
+    margin: 15px;
+    margin-left: 160px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#pages section h5 {
+    margin: 20px;
+    margin-left: 95px;
+}
+
+#pages section #unip h1 {
+    margin: 5px;
+    margin-left: 180px;
+}
+
+#pages section #unip h2 {
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+#pages section #unip h3 {
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+#pages section #unip #c {
+
+    margin-left: 160px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#pages section #unip h5 {
+    margin-top: 15px;
+    margin-left: 95px;
+}
+
+#pages section #uny h1 {
+    margin-top: 5px;
+    margin-left: 166px;
+}
+
+#pages section #uny h2 {
+    margin-top: 15px;
+    margin-left: 130px;
+}
+
+#pages section #uny h3 {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#pages section #uny #d {
+    margin-top: 15px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#pages section #uny h5 {
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+#pages section #braz h1 {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+#pages section #braz h2 {
+    margin-top: 15px;
+    margin-left: 115px;
+}
+
+#pages section #braz h3 {
+    margin-top: 15px;
+    margin-left: 25px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+#pages section #braz #e {
+    margin-top: auto;
+    margin-left: 145px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#pages section #detran h1 {
+    margin: top 5px;
+    ;
+    margin-left: 155px;
+    font-weight: bold;
+}
+
+#pages section #detran h3 {
+    margin: top 5px;
+    ;
+    margin-left: 75px;
+    font-weight: bold;
+    color: red;
+
+
+}
+
+
+#pages section #detran h5 {
+    margin: top 5px;
+    ;
+    margin-left: 85px;
+    font-weight: bold;
+
+
+}
+
+#pages section #detran #f {
+    margin-top: auto;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+#pageflip-canvas {
+    position: absolute;
+    z-index: 100;
+}
+
+#marquee {
+
+    margin-top: 280px;
+    margin-left: 110px;
+    font-size: 20px;
+
+}
